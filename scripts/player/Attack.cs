@@ -1,11 +1,10 @@
 using Godot;
 using System;
 
-public partial class Idle : States
+public partial class Attack : States
 {
     public override void Enter()
     {
-        ChangeState("attack");
     }
     public override void Exit()
     {
